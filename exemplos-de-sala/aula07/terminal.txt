@@ -1,0 +1,8 @@
+Como executar a pilha:
+
+gcc -pedantic-errors -Wall pilha.c -c
+gcc -pedantic-errors -Wall main.c -c
+gcc -pedantic-errors -Wall main.o pilha.o -o exec
+./exec
+
+valgrind ./exec
