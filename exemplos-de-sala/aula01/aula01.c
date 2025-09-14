@@ -1,3 +1,6 @@
+//Para compilar use
+//gcc -pedantic-errors -Wall <ARQUIVO C>.c -o <NOME DO EXECUTAVEL>
+
 #include <stdio.h>
 
 //argc - quantos arqumentos foram passados
